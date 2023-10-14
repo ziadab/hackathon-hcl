@@ -1,0 +1,253 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "fbachs0@seesaa.net",
+      "password": "xS7??Qt1>9JZnCewmA",
+      "firstname": "Florry",
+      "lastname": "Bachs",
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "email": "thalsted1@reddit.com",
+      "password": "iK9?nKZ4r`f<\"cP2,>!l",
+      "firstname": "Theresa",
+      "lastname": "Halsted",
+      "role": "admin"
+    },
+    {
+      "id": 3,
+      "email": "ccaccavale2@biglobe.ne.jp",
+      "password": "sP7{!v5HNnN~cV%r",
+      "firstname": "Celinda",
+      "lastname": "Caccavale",
+      "role": "user"
+    },
+    {
+      "id": 4,
+      "email": "lbloom3@gmpg.org",
+      "password": "aR7)?%|dP}=82'H\"xo<sUBa",
+      "firstname": "Leupold",
+      "lastname": "Bloom",
+      "role": "admin"
+    },
+    {
+      "id": 5,
+      "email": "mwensley4@constantcontact.com",
+      "password": "tT7{h8V}dKV\\{WjsMAneS",
+      "firstname": "Marget",
+      "lastname": "Wensley",
+      "role": "admin"
+    },
+    {
+      "id": 6,
+      "email": "ndudderidge5@ed.gov",
+      "password": "nV2\\C`'LcCFk\"",
+      "firstname": "Nadine",
+      "lastname": "Dudderidge",
+      "role": "admin"
+    },
+    {
+      "id": 7,
+      "email": "bferroni6@xinhuanet.com",
+      "password": "rW2@CNk&H}aL",
+      "firstname": "Beck",
+      "lastname": "Ferroni",
+      "role": "admin"
+    },
+    {
+      "id": 8,
+      "email": "cchazette7@bbc.co.uk",
+      "password": "kG1+j~Nmech>m<WC2QpeN",
+      "firstname": "Cristina",
+      "lastname": "Chazette",
+      "role": "user"
+    },
+    {
+      "id": 9,
+      "email": "osilversmidt8@independent.co.uk",
+      "password": "kE1)Vw1{QDqx",
+      "firstname": "Osborne",
+      "lastname": "Silversmidt",
+      "role": "admin"
+    },
+    {
+      "id": 10,
+      "email": "rgairdner9@dot.gov",
+      "password": "uJ4@\"z|pgb&.V,y",
+      "firstname": "Ralf",
+      "lastname": "Gairdner",
+      "role": "admin"
+    }
+  ],
+  "books": [
+    {
+      "title": "Fundamentals of Wavelets",
+      "author": "Goswami, Jaideva",
+      "genre": "signal processing",
+      "height": 228,
+      "publisher": "Wiley",
+      "id": 1
+    },
+    {
+      "title": "Data Smart",
+      "author": "Foreman, John",
+      "genre": "data science",
+      "height": 235,
+      "publisher": "Wiley",
+      "id": 2
+    },
+    {
+      "title": "God Created the Integers",
+      "author": "Hawking, Stephen",
+      "genre": "mathematics",
+      "height": 197,
+      "publisher": "Penguin",
+      "id": 3
+    },
+    {
+      "title": "Superfreakonomics",
+      "author": "Dubner, Stephen",
+      "genre": "economics",
+      "height": 179,
+      "publisher": "HarperCollins",
+      "id": 4
+    },
+    {
+      "title": "Orientalism",
+      "author": "Said, Edward",
+      "genre": "history",
+      "height": 197,
+      "publisher": "Penguin",
+      "id": 5
+    },
+    {
+      "title": "Nature of Statistical Learning Theory, The",
+      "author": "Vapnik, Vladimir",
+      "genre": "data science",
+      "height": 230,
+      "publisher": "Springer",
+      "id": 6
+    },
+    {
+      "title": "Integration of the Indian States",
+      "author": "Menon, V P",
+      "genre": "history",
+      "height": 217,
+      "publisher": "Orient Blackswan",
+      "id": 7
+    },
+    {
+      "title": "Drunkard's Walk, The",
+      "author": "Mlodinow, Leonard",
+      "genre": "science",
+      "height": 197,
+      "publisher": "Penguin",
+      "id": 8
+    },
+    {
+      "title": "Image Processing & Mathematical Morphology",
+      "author": "Shih, Frank",
+      "genre": "signal processing",
+      "height": 241,
+      "publisher": "CRC",
+      "id": 9
+    },
+    {
+      "title": "How to Think Like Sherlock Holmes",
+      "author": "Konnikova, Maria",
+      "genre": "psychology",
+      "height": 240,
+      "publisher": "Penguin",
+      "id": 10
+    },
+    {
+      "title": "Data Scientists at Work",
+      "author": "Sebastian Gutierrez",
+      "genre": "data science",
+      "height": 230,
+      "publisher": "Apress",
+      "id": 11
+    },
+    {
+      "title": "Slaughterhouse Five",
+      "author": "Vonnegut, Kurt",
+      "genre": "fiction",
+      "height": 198,
+      "publisher": "Random House",
+      "id": 12
+    },
+    {
+      "title": "Birth of a Theorem",
+      "author": "Villani, Cedric",
+      "genre": "mathematics",
+      "height": 234,
+      "publisher": "Bodley Head",
+      "id": 13
+    },
+    {
+      "title": "Structure & Interpretation of Computer Programs",
+      "author": "Sussman, Gerald",
+      "genre": "computer science",
+      "height": 240,
+      "publisher": "MIT Press",
+      "id": 14
+    },
+    {
+      "title": "Age of Wrath, The",
+      "author": "Eraly, Abraham",
+      "genre": "history",
+      "height": 238,
+      "publisher": "Penguin",
+      "id": 15
+    },
+    {
+      "title": "Trial, The",
+      "author": "Kafka, Frank",
+      "genre": "fiction",
+      "height": 198,
+      "publisher": "Random House",
+      "id": 16
+    },
+    {
+      "title": "Statistical Decision Theory'",
+      "author": "Pratt, John",
+      "genre": "data science",
+      "height": 236,
+      "publisher": "MIT Press",
+      "id": 17
+    },
+    {
+      "title": "Data Mining Handbook",
+      "author": "Nisbet, Robert",
+      "genre": "data science",
+      "height": 242,
+      "publisher": "Apress",
+      "id": 18
+    },
+    {
+      "title": "New Machiavelli, The",
+      "author": "Wells, H. G.",
+      "genre": "fiction",
+      "height": 180,
+      "publisher": "Penguin",
+      "id": 19
+    },
+    {
+      "title": "Physics & Philosophy",
+      "author": "Heisenberg, Werner",
+      "genre": "science",
+      "height": 197,
+      "publisher": "Penguin",
+      "id": 20
+    }
+  ],
+  "borrow": [
+    {
+      "user_id": 1,
+      "book_id": 1,
+      "created_at": 1697283962
+    }
+  ]
+}
