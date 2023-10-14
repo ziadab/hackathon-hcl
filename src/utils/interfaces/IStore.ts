@@ -1,9 +1,9 @@
-import { Trole } from "../types/TRole";
+import { IUser } from "./IUser";
 
 export default interface IStore {
   //state properties
-  role: Trole | null;
+  user: IUser | null;
 
   //state reducers/handlers
-  setRole: (role: Trole) => void;
+  setUser: (user: IUser) => void;
 }

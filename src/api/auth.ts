@@ -1,4 +1,9 @@
-export const getUser = async (email: string, password: string) => {
+import { IUser } from "../utils/interfaces/IUser";
+
+export const getUser = async (
+  email: string,
+  password: string
+): Promise<IUser> => {
   return fetch("http://localhost:3000/users")
     .then((res) => res.json())
     .then((data: Array<any>) => {

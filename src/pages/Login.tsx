@@ -1,13 +1,18 @@
 // import React from "react";
-// import useStore from "../store";
+import useStore from "../store";
 import { useForm } from "react-hook-form";
 import { Button, FormControl, Input, FormErrorMessage } from "@chakra-ui/react";
 import { LoginSchema } from "../schema";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { getUser } from "../api";
+import { useToast } from "@chakra-ui/react";
+import { useNavigate } from "react-router";
 
 const Login = () => {
-  // const [role, setRole] = useStore((state) => [state.role, state.setRole]);
+  const [setUser] = useStore((state) => [state.setUser]);
+
+  const toast = useToast();
+  const navigate = useNavigate();
   const {
     register,
     handleSubmit,
@@ -18,9 +23,21 @@ const Login = () => {
   });
 
   const loginHandler = async (data: any) => {
-    console.log(data);
     const user = await getUser(data.email, data.password);
-    console.log(user);
+    if (user === null) {
+      toast({
+        title: "Invalid Credientials",
+        description: "Unvalid email or password.",
+        status: "error",
+        duration: 5000,
+        isClosable: true,
+        position: "bottom-right",
+      });
+      return;
+    }
+    setUser(user);
+    if (user.role === "admin") navigate("/admin");
+    if (user.role === "user") navigate("/user");
   };
   return (
     <>

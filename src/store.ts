@@ -1,11 +1,10 @@
 import { create } from "zustand";
 import IStore from "./utils/interfaces/IStore";
-import { Trole } from "./utils/types/TRole";
+import { TUser } from "./utils/types/TUser";
 
 const useStore = create<IStore>((set) => ({
-  role: null,
-
-  setRole: (role: Trole) => set({ role }),
+  user: null,
+  setUser: (user: TUser) => set({ user }),
 }));
 
 export default useStore;
